@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding-top: 170px;
+    padding-left: 76px;
+}
+
+.welcome-title{
+    font-family: 'Merriweather Sans', sans-serif;
+    position: fixed;
+    display: flex;
+    background-color:rgb(49, 49, 49);
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 4px solid rgb(29, 135, 0);
+    z-index: 100;
+    
+    
+}
+
+.page-link{
+    display: grid;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    padding-top: 190px;
+    padding-bottom: 70px;
+    background-color: aquamarine;
+}
+
+.link-button{
+    background-color: aquamarine;
+    border: none;
+    transition: 0.15s;
+}
+
+.link-button:hover{
+    cursor: pointer;
+    background-color: rgb(98, 205, 170);
+}
+
+.link-button:active{
+    cursor: pointer;
+    background-color: rgb(52, 112, 92);
+}
+
+.welcome{
+    font-size: 60px;
+    color:rgb(42, 195, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-picture{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.ppic{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.introduction{
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    word-spacing: 8px;
+    line-height: 45px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.profile-title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 202, 202);
+    font-family: 'Phudu', cursive;
+    font-size: 28px;
+}
+
+.profile{
+    color: beige;
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 8px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sub-headding{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 202, 202);
+    font-family: 'Phudu', cursive;
+    font-size: 28px;
+}
+
+.block{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 8px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sub-block{
+    color: beige;
+    border-bottom: 3px dashed  white;
+    border-image: linear-gradient(to right, white 40%, transparent 40%) 100% 1;
+}
+
+.sub-block-last{
+    color: beige;
+}
+
+.sub-block-lang{
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-block-exception{
+    color: beige;
+    border-bottom: 3px solid  white;
+}
+
+.institute-name{
+    font-style: italic;
+}
+
+.contacts{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    word-spacing: 4px;
+    line-height: 40px;
+    margin-top: 60px;
+    padding-top: 28px;
+    border-top: 8px dotted white;
+}
+
+.contact-me{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.linked-in{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.linked-in-logo{
+    border-radius: 10%;
+    background-color: rgb(10, 102, 194);
+    
+}
+
+.connect-button{
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    border: none;
+    border-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 0.15s;
+    text-decoration: none;
+}
+
+.connect-button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px;
+    border-color:rgb(10, 102, 194);
+    color: rgb(10, 102, 194);
+}
+
+.connect-button:active{
+    cursor: pointer;
+    background-color: rgb(9, 68, 127);
+    color: white;
+}
+
+.hacker-rank{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.rank-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    transition: 0.15s;
+}
+
+
+.green-square {
+    margin-left: 5px;
+    width: 40px; 
+    height: 40px; 
+    background-color: rgb(42, 195, 0); 
+    border-radius: 8px;
+}
+
+
+.rank-button:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 8px gray;
+}
+
+.rank-button:active{
+    background-color: rgb(96, 96, 96);
+}
+
+.gmail{
+    font-family:'Noto Sans', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.gmail-g{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(197, 0, 0);
+}
+
+.email{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.email:hover{
+    cursor: pointer;
+    color: rgb(72, 72, 250);
+}
+
+.email:active{
+    color: white;
+}
